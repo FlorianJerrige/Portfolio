@@ -35,7 +35,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
+        <Navbar.Brand href="/Portfolio" className="d-flex">
           <h2>Mobzer.</h2>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -59,7 +59,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/Portfolio/about"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> A Propos
@@ -69,7 +69,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/project"
+                to="/Portfolio/project"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
@@ -82,7 +82,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/instrumentals"
+                to="/Portfolio/instrumentals"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
